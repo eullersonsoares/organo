@@ -6,7 +6,7 @@ export class ListaSuspensa extends Component {
         return(
             <div className="lista-suspensa">
                 <label>{this.props.label}</label>
-                <select>
+                <select onChange={evento => this.props.aoAlterado(evento.target.value)} value={this.props.valor}>
                     {this.props.itens.map(item => <option key={item}>{item}</option>)}
                 </select>
             </div>
