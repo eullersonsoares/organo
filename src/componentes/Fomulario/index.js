@@ -20,6 +20,11 @@ const Formulario = (props) => {
             imagem,
             time
         });
+
+        setNome('');
+        setCargo('');
+        setImagem('');
+        setTime('');
     }
 
     return (
@@ -32,7 +37,7 @@ const Formulario = (props) => {
                 <ListaSuspensa label="Times" itens={props.times} obrigatorio={true} valor={time} aoAlterado={valor => setTime(valor)} />
                 <Botao texto="Criar card" />
             </form>
-        </section>
+        </section> 
     )
 };
 
