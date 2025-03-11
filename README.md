@@ -68,4 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # organo
+Organo is a project that was developed to address the basic principles of React in the React: developing with javascript course. We saw several concepts such as the folder structure, components (rendering, parameters and jsx), state (with use state), debugging and new js concepts.
